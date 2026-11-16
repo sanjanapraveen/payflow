@@ -1,0 +1,26 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "description": "A sample project demonstrating TypeScript structure.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username/my-project.git"
+  },
+  "keywords": [
+    "typescript",
+    "project"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "jest": "^26.0.0"
+  }
+}
